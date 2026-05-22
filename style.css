@@ -143,11 +143,16 @@ section{
     flex-direction: row;
     transition: transform 0.4s ease;
 }
+.project_link{
+    min-width: calc(100% / 3);
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
 .project{
     min-height: 400px;
     padding: 50px;
-    min-width: calc(100% / 3);
-    box-sizing: border-box;
     border-right: var(--border_settings);
 }
 .project:hover{
