@@ -284,7 +284,7 @@ section{
 /*--- end of the content block ---*/
 
 @media (max-width: 1024px){
-    .project{
+    .project_link{
         min-width: 50%;
     }
     .profile_picture::after{
@@ -314,7 +314,7 @@ section{
         top: 10px;
     }
 
-    .project{
+    .project_link{
         min-width: 100%;
     }
     .info_box{
